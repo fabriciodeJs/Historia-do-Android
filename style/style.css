@@ -1,0 +1,151 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #E7E5C2;
+}
+header{
+    background-image: linear-gradient(#306d4c ,#18492d, #0b3d22);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.877);
+    min-height: 150px;
+}
+header > h1{
+    font-size: 45pt;
+    padding: 20px;
+    font-family: 'Big Shoulders Display', 'cursive';
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.582);
+    
+}
+header > h3{
+    margin: auto;
+    padding: 20px;
+    max-width: 600px;
+    font-family: 'Roboto', helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.678);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.411);
+}
+nav{
+    background-color: #0b3d22;
+    padding: 20px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.336);  
+}
+nav > a{
+    text-decoration: none;
+    padding-right: 10px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition-duration: .5s;
+    border-radius: 7px;
+
+}
+nav > a:hover{
+    background-color: rgb(20, 117, 20);
+    color: rgba(0, 0, 0, 0.664);
+}
+main{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    font: normal;
+    font-size: 20px;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+main > section{
+    width: 100%;
+}
+section > h2{
+    padding: 20px;
+    font-size: 25pt;
+    color: #354e40;
+}
+p{
+    justify-content: center;
+    text-align: justify;
+    padding: 25px;
+    text-indent: 3%;
+    
+}
+section > h3{
+    padding-left: 20px;
+    font-size: 20pt;
+    color: #354e40;
+    background-image: linear-gradient(to left, rgba(9, 228, 9, 0), rgba(0, 255, 149, 0.726));
+}
+#droids{
+    width: 100%;
+}
+
+picture > #ariana {
+    display: flex;
+    margin: auto;
+    width: 90%;
+}
+#img-bugdroid{
+    display: flex;
+    margin: auto;
+    width: 40%;
+
+}
+article{
+    background-color: #0b3d22;
+    margin-bottom: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
+   
+}
+iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+aside{
+    width: 95%;
+    margin: auto;
+    background-color: #16dc73;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;
+}
+aside > h4{
+    background-color: #0b3d22;
+    color: white;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+aside > p{
+    font-size: 10pt;
+    font-weight: normal;
+    padding: 10px;
+}
+aside > div{
+    display: flex;
+
+}
+ul{
+    width: 50%;
+    padding-left: 25px;
+    font-size: 10pt;
+}
+main > p{
+    text-align: center;
+    font-size: 1em;
+}
+footer{
+    background-color: #0b3d22;
+    margin-top: 20px;
+}
+footer > p{
+    text-align: center;
+    color: white;
+    padding: 3px;
+
+}
