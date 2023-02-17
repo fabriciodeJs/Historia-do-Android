@@ -44,12 +44,12 @@ header > h3{
 }
 nav{
     background-color:var(--cor5);
-    padding: 20px;
+    padding: 15px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.336);  
 }
 nav > a{
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -75,7 +75,7 @@ main > section{
     width: 100%;
 }
 section > h2{
-    padding: 20px;
+    padding: 20px 15px;
     font-family: 'Android', Arial, Helvetica, sans-serif;
     font-size: 1.3em;
     color: var(--cor5);
